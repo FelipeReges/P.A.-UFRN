@@ -1,0 +1,6 @@
+Programação Avançada [DCA1202]
+
+Respostas da questao 01 da lista de ponteiros em c:
+
+p == &i  |  *p - *q  |  **&p  |  3 - *p/(*q) + 7    //Operacoes
+1        |  -2       |  3     |  10                 //Saída
