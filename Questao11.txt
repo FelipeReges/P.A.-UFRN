@@ -1,0 +1,14 @@
+Programação Avançada [DCA1202]
+
+Respostas da questao 11 da lista de ponteiros em c:
+
+aloha[2] = value;	//Válido	
+scanf("%f", &aloha);	//Válido
+aloha = "value";    /*Inválido. Variável do tipo vetor não pode receber um valor
+                    sem especificar o endereço da posição do vetor */
+printf("%f", aloha);	//Válido
+coisas[4][4] = aloha[3];    //Válido
+coisas[5] = aloha;	/*Inválido. Cada posição do vetor se comporta como uma variável
+				    simples, ou seja, não pode atribuir, a uma variável, um vetor */ 
+pf = value;		//Inválido. O ponteiro "pf" só pode receber valores do tipo inteiro
+pf = aloha;     //Válido

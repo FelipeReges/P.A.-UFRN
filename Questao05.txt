@@ -1,0 +1,12 @@
+Programação Avançada [DCA1202]
+
+Respostas da questao 05 da lista de ponteiros em c:
+
+Contador / Valor / Valor / Endereco / Endereco
+i = 0 vet[0] = 1.1*(f + 0) = 1.1 &vet[0] = 61ff04(f + 0) = 61ff04
+i = 1 vet[1] = 2.2*(f + 1) = 2.2 &vet[1] = 61ff08(f + 1) = 61ff08
+i = 2 vet[2] = 3.3*(f + 2) = 3.3 &vet[2] = 61ff0c(f + 2) = 61ff0c
+i = 3 vet[3] = 4.4*(f + 3) = 4.4 &vet[3] = 61ff10(f + 3) = 61ff10
+i = 4 vet[4] = 5.5*(f + 4) = 5.5 &vet[4] = 61ff14(f + 4) = 61ff14  
+
+//Ok!

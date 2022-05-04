@@ -1,0 +1,26 @@
+Programação Avançada [DCA1202]
+
+Respostas da questao 08 da lista de ponteiros em c:
+
+/* Programa que define três valores para o vetor inteiro 
+declarado vet[] e imprime o CONTEUDO de cada posicao do 
+vetor por meio de um laço for */
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+  printf("%d ",*(vet+i));
+  }
+}
+----------------------------------------------------
+/* Programa que define três valores para o vetor inteiro 
+declarado vet[] e imprime o ENDERECO de cada posicao do 
+vetor por meio de um laço for. Nesse caso eh possivel
+observar o intervalo de 4 bytes entre cada espaco de mem. */
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+  printf("%X ",vet+i);
+  }
+}

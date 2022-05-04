@@ -1,0 +1,8 @@
+Programação Avançada [DCA1202]
+
+Respostas da questao 07 da lista de ponteiros em c:
+
+p = mat + 1;
+p = mat++; //Invalido
+p = ++mat; //Invalido
+x = (*mat)++;

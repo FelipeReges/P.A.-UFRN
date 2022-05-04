@@ -1,0 +1,12 @@
+Programação Avançada [DCA1202]
+
+Respostas da questao 03 da lista de ponteiros em c:
+
+p = i; //Atribuicao ilegal
+q = &j;
+p = &*&i;
+i = (*&)j; //Atribuicao ilegal
+i = *&j;
+i = *&*&j;
+q = *p; //Atribuicao ilegal
+i = (*p)++ + *q;

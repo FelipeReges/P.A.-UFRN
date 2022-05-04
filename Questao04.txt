@@ -1,0 +1,17 @@
+Programação Avançada [DCA1202]
+
+Respostas da questao 04 da lista de ponteiros em c:
+
+20 
+29.0 
+P    
+e    
+P      
+e
+t
+31
+45
+27
+31
+45
+27     //Programa imprimiu tudo como foi pedido

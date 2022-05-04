@@ -1,0 +1,8 @@
+Programação Avançada [DCA1202]
+
+Respostas da questao 06 da lista de ponteiros em c:
+
+*(pulo + 2); //referencia o valor do terceiro elemento do vetor
+*(pulo + 4);
+pulo + 4;
+pulo + 2;

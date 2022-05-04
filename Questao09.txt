@@ -1,0 +1,8 @@
+Programação Avançada [DCA1202]
+
+Respostas da questao 09 da lista de ponteiros em c:
+
+x for declarado como char?   //x + 1 = 4093, x + 2 = 4094, x + 3 = 4095  
+x for declarado como int?   //x + 1 = 4094, x + 2 = 4096, x + 3 = 4098  
+x for declarado como float?   //x + 1 = 4096, x + 2 = 409A, x + 3 = 409E  
+x for declarado como double?   //x + 1 = 409A, x + 2 = 40A2, x + 3 = 40AA  

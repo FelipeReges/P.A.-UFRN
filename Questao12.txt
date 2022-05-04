@@ -1,0 +1,53 @@
+"Ponteiro para função"
+
+- O uso de ponteiros para funções em C serve principalmente 
+para definir, em tempo de execução, qual função será executada, 
+sem a necessidade de escrever o nome da função, de forma 
+explícita naquele ponto do código.
+//https://www.inf.pucrs.br/~pinho/PRGSWB/PonteirosParaFuncoes/PonteirosParaFuncoes.htmlhttps://www.inf.pucrs.br/~pinho/PRGSWB/PonteirosParaFuncoes/PonteirosParaFuncoes.html
+
+"Forma Geral:"
+tipo_retornado (*nome_do_ponteiro)(lista_de_tipos)
+
+- O "nome_do_ponteiro deve sempre ser colocado entre "parênteses" 
+juntamente com o "asterisco". Isso é necessário para evitar
+confusões com a declaração de funções que retornem ponteiros.
+
+"Função que retorna ponteiro"
+tipo_retornado *nome_da_função(lista_de_parâmetros)
+
+"Ponteiro para função"
+tipo_retornado (*nome_do_ponteiro)(lista_de_tipos)
+
+- Se declararmos um ponteiro para funções como
+int (*ptr)(int, int)
+
+- ele poderá apontar para qualquer função que recebe "dois parâmetros 
+inteiros" e retorne "um valor inteiro". Por exemplo:
+int soma(int x, int y)
+
+- O nome de uma função é seu endereço de memória
+ptr=soma
+
+"Importante"
+- Ponteiros não inicializados apontam para um lugar indefinido
+- O ponteiro para função também pode ser inicializado com a 
+constante "NULL".
+
+-- Exemplo em Questao12-0.c
+
+"Passando um ponteiro para função como parâmetro"
+- Para declarar uma função que possa receber um "ponteiro para 
+função" como "parâmetro", devemos incorporar a declaração de um 
+"ponteiro para uma função" dentro da declaração dos "parâmetros"
+da função.
+- Considere o seguindo "ponteiro para função"
+int (*ptr)(int, int);
+
+- Se quisermos passar esse ponteiro para uma outra função, devemos 
+declarar esse ponteiro na sua "lista de parâmetros"
+int executa (int (*ptr)(int, int), int x, int y);
+
+-- Exemplo em Questao12-1.c
+
+//https://youtu.be/naNqY-3Tha4
